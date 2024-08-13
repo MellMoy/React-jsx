@@ -1,14 +1,17 @@
-import React, { Component } from 'react';
-import '../styles/App.css';
+import React, { Fragment } from "react";
+import "../styles/App.css";
+import Header from "./Header";
+import Main from "./Main";
 
-class App extends Component {
-	render() {
-		return (
-			<div>
-				<h1>Hello World</h1>
-			</div>
-		);
-	}
+function App() {
+  const buttonName = "Some buttom updated 2";
+  
+  return (
+    <Fragment>
+      <Header buttonName={buttonName} />
+      <Main />
+    </Fragment>
+  );
 }
 
 export default App;

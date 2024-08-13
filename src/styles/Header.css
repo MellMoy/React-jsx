@@ -1,0 +1,18 @@
+header {
+    color: rgb(220, 24, 24);
+    background-color: bisque;
+    text-align: center;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header .some-button {
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-right: 10px;
+    
+}
